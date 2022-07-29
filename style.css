@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+    width:auto;
+    min-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    font-family: "Montserrat";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar div img {
+    margin-left: 40px;
+    width: 50%;
+}
+
+.line {
+    border-left: 4px white;
+    height: 10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.grow-list {
+    margin-right: 35%;
+}
+
+.grow-list .list {
+    display: flex;
+    list-style-type: none;
+}
+
+.list-item {
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.button-small{
+    margin-right:60px;
+    width:90%;
+    background-color: #BA0CC5;
+    color:#fff;
+    border: none;
+    border-radius:10px;
+    padding:15px;
+    font-family:"Montserrat"
+}
+
+.hero {
+    padding: 20em;
+    background-image: url('assets/image.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero .hero-heading {
+    font-family: "Poppins";
+    font-size: 3em;
+    font-weight: 1000;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    top: -150px
+}
+
+.hero .hero-description{
+    font-family: "Poppins";
+    font-size:1em;
+    font-weight:400;
+    color:#fff;
+    position: relative;
+    top:-150px;
+    text-align: center;
+    margin-right:80px;
+}
+
+.button-large{
+    font-weight:400;
+    background-color: #BA0CC5;
+    color:#fff;
+    border: none;
+    border-radius:10px;
+    padding:10px;
+    text-align: center;
+    font-family:"Montserrat";
+    font-size: 1em;
+    position: absolute;
+    top:490px;
+    right:550px;
+    width:18%
+}
